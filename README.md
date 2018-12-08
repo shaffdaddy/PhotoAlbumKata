@@ -10,3 +10,7 @@ run with debugging or F5 to run without debugging. If you do this you will need 
 This can be done by going to the properties of the PhotoAlbumConsoleApp, go to debug section, and in application arguments type in
 an integer value. You can also run it using dotnet build, followed by going to the project folder PhotoAlbumConsoleApp, and then typing
 dotnet run -- 2. The number 2 can be any integer.
+
+# Motivation for Solution
+I purposely made this slightly more complicated than it needed to be. This was in order to showcase my understanding of depency injection, appropriate abstractions, design patterns (Repository pattern), testability, and to mimic a web api. This problem could be easily solved using just the main method, however then that would lead itself to be difficult to test and not showcase any understanding than just basic
+C# knowledge.
